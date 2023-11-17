@@ -1,0 +1,285 @@
+@import 'src/shared/shared-styles.css';
+
+main{
+  background-color: var(--color-fondo);
+  color: var(--color-letra);
+}
+
+/* HOME */
+
+.introduction{
+  padding: 12rem;
+  display: flex;
+  color: var(--color-letra);
+  justify-content: space-around;
+}
+
+.first-part{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-around;
+}
+.login-button{
+  margin-left: 32px;
+}
+
+.action-buttons{
+  margin-top: 1rem;
+}
+
+.action-buttons button.custom-principal-button{
+  background-color: var(--color-primario);
+  color: var(--color-letra);
+  font-family: DMSans-Medium, serif;
+  width: 185px;
+  height: 70px;
+}
+
+.action-buttons button.login-button{
+  background-color: #4D6462;
+}
+
+.slogan{
+  font-size: 66px;
+  font-weight: bold;
+  font-family: DMSans-Bold, serif;
+  letter-spacing: -1px;
+
+  max-width: 700px;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  line-height: 100px;
+}
+
+.slogan-explanation{
+  font-family: DMSans-Light, serif;
+  line-height: 32px;
+  font-size: 18px;
+  overflow:  hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  max-width: 500px;
+}
+
+.images {
+  width: 40%;
+  position: relative;
+}
+
+.images img {
+  position: absolute;
+}
+.images .car-image{
+  z-index: 1;
+}
+
+.images .sleep-image {
+  z-index: 0;
+  left: 180px;
+  top: -10px;
+}
+
+.images .target-image {
+  z-index: 0;
+  width: 250px;
+  left: 350px;
+
+}
+
+/* MARCAS DE CARROS ASOCIADAS */
+
+.brands-cars{
+  display: flex;
+  padding-top: 18rem;
+  padding-bottom: 10rem;
+  font-size: 18px;
+  font-family: DMSans-Thin, serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-cars-title h2{
+  font-size: 25px;
+  font-family: DMSans-Thin, serif;
+  margin-bottom: 2rem;
+}
+.brands-cars-list{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: DMSans-Medium, serif;
+  font-size: 24px;
+}
+
+.brands-cars-list ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* CARACTERÍSTICAS */
+
+.principal-features-explanation{
+  font-family: DMSans-Light, serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.principal-features-explanation-title{
+  font-size: 40px;
+  line-height: 32px;
+  max-width: 700px;
+}
+
+.principal-features-explanation-paragraph{
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 3rem;
+  max-width: 500px;
+  align-items: center;
+  text-align: center;
+}
+
+.principal-features{
+  margin: 20px 166px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1px;
+}
+
+.principal-features-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center; /* Añadido para centrar el contenido de cada celda */
+}
+
+.feature-container{
+  padding: 2rem;
+}
+.feature {
+  margin: 0 auto;
+  font-family: DMSans-Light, serif;
+  font-size: 15px;
+  background-color: #4C6462;
+  border-radius: 40px;
+  width: 325px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+}
+.feature-container h3{
+  font-size: 18px;
+  font-family: DMSans-Medium, serif;
+  margin-bottom: 1rem;
+}
+.feature3{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 477px;
+  height: 622px;
+  background-color: #8A9597;
+}
+
+/* SOBRE NOSOTROS */
+.our-us{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.our-us-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 20rem;
+}
+
+.our-us-explanation{
+  margin-left: 6rem;
+  font-family: DMSans-Light, serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 500px;
+}
+
+.our-us-explanation-title{
+  font-size: 40px;
+  font-family: DMSans-Medium, serif;
+  line-height: 60px;
+  max-width: 700px;
+}
+
+.our-us-explanation-paragraph{
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 1rem;
+  max-width: 500px;
+  align-items: center;
+  text-align: left;
+}
+.our-us-explanation-list{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 25px;
+}
+.our-us-explanation-list-idea{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+/* CONTACTO FORM */
+
+.contact-form {
+  background-color: var(--color-fondo);
+  padding-bottom: 15rem;
+  width: 50%;
+  margin: 0 auto;
+  /* Ajusta el valor de border-radius según prefieras */
+}
+
+.contact-form-container {
+  display: flex;
+  font-family: DMSans-Light, serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: #4C6462;
+  border-radius: 50px; /* Ajusta el valor de border-radius según prefieras */
+}
+
+.contact-form-title{
+  font-size: 30px;
+  font-family: DMSans-Medium, serif;
+}
+
+.contact-form-container button.custom-principal-button{
+  margin-top: 2rem;
+  background-color: #4A605E;
+  color: var(--color-letra);
+  font-family: DMSans-Medium, serif;
+  width: 185px;
+  height: 70px;
+}

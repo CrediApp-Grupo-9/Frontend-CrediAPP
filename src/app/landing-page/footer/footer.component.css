@@ -1,0 +1,50 @@
+html,footer{
+  background-color: #4C6462;
+  color: var(--color-letra);
+  font-family: DMSans-Light, serif;
+}
+
+.footer-container{
+  padding: 56px 133px;
+}
+
+.first-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.social-networks{
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.second-group{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.menu h4{
+  font-family: DMSans-Bold, serif;
+  font-size: 20px;
+  display: flex;
+  width: 280px;
+  align-items: center;
+}
+
+.menu-options{
+  margin-top: 35px;
+  width: 224px;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.carro-imagen{
+  width: 20%;
+  height: 20%;
+}

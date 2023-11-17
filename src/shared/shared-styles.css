@@ -1,0 +1,11 @@
+/* shared-shared-styles.css */
+.custom-principal-button {
+  background-color: var(--color-primario);
+  font-family: DMSans-Bold, serif;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: var(--color-letra);
+  border-radius: 80px;
+  width: 119px;
+  height: 56px;
+}

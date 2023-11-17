@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+:root{
+  --color-fondo: #395351;
+  --color-primario: #8A9597;
+  --color-letra: #FFFFFF;
+}
+
+@font-face {
+  font-family: DMSans-Medium;
+  src: url(assets/fonts/DMSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: DMSans-Bold;
+  src: url(assets/fonts/DMSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: DMSans-Regular;
+  src: url(assets/fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: DMSans-Italic;
+  src: url(assets/fonts/DMSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: DMSans-MediumItalic;
+  src: url(assets/fonts/DMSans-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: DMSans-BoldItalic;
+  src: url(assets/fonts/DMSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: DMSans-Thin;
+  src: url(assets/fonts/DMSans-Thin.ttf);
+}
+
+@font-face {
+  font-family: DMSans-Light;
+  src: url(assets/fonts/DMSans-Light.ttf);
+}
+
+@font-face{
+  font-family: DMSans-SemiBold;
+  src: url(assets/fonts/DMSans-SemiBold.ttf);
+}
+
+
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: DMSans-Thin, serif;
+}
+
+:root {
+  --primary-color: #395351; /* Puedes ajustar el código de color según tus preferencias */
+}
