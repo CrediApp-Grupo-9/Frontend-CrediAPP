@@ -1,13 +1,14 @@
+<!-- navbar.component.html -->
 <nav class="navbar">
   <div class="logo">
     <img src="assets/crediapp-logo.png" alt="Logo de Credi-App" />
   </div>
   <div class="separator"></div>
   <ul class="nav-links">
-    <li><a routerLink="/">HOME</a></li>
-    <li><a routerLink="/about">SOBRE NOSOTROS</a></li>
-    <li><a routerLink="/features">CARACTERÍSTICAS</a></li>
-    <li><a routerLink="/contact">CONTÁCTANOS</a></li>
+    <li><a href="#introduction" (click)="scrollToSection('introduction')">HOME</a></li>
+    <li><a href="#our-us" (click)="scrollToSection('our-us')">SOBRE NOSOTROS</a></li>
+    <li><a href="#brands-cars" (click)="scrollToSection('brands-cars')">CARACTERÍSTICAS</a></li>
+    <li><a href="#contact-form" (click)="scrollToSection('contact-form')">CONTÁCTANOS</a></li>
   </ul>
-  <button class="custom-principal-button" mat-raised-button>LOGIN</button>
+  <button (click)="navigateToCounter()" class="custom-principal-button" mat-raised-button>LOGIN</button>
 </nav>

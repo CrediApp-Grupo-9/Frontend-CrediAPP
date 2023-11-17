@@ -1,0 +1,90 @@
+@import 'src/shared/shared-styles.css';
+
+html,body{
+  background-color: var(--color-fondo);
+}
+
+:host ::ng-deep .mdc-text-field--outlined {
+  --mdc-outlined-text-field-container-shape: 20px;
+}
+
+.container{
+  color: var(--color-letra);
+  display: flex;
+  flex-direction: column;
+  width: 784px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: auto;
+}
+.login-title img{
+  width: 200px;
+  margin: auto;
+}
+.login-title{
+  display: flex;
+  width: 350px;
+  text-align: center;
+  flex-direction: column;
+  line-height: 30px;
+  margin-bottom: 3rem;
+}
+
+.login-title h1{
+  font-family: DMSans-Light, sans-serif;
+  font-size: 20px;
+}
+
+.login-form{
+  background-color: #8A9597;
+  padding: 95px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height:400px;
+  gap: 2rem;
+}
+
+
+.login-form-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-container-label{
+  font-family: DMSans-Bold, sans-serif;
+  gap: 12px;
+  letter-spacing: 0.9px;
+}
+
+.login-form-field img{
+  margin-bottom: -10px;
+  margin-right: 20px;
+}
+
+.container button.custom-principal-button{
+  background-color: var(--color-fondo);
+  color: var(--color-letra);
+  border-radius: 20px;
+  width: 50%;
+  margin: 0 auto;
+  height: 70px;
+  font-family: DMSans-Bold, sans-serif;
+  line-height: 1.6px;
+  font-size: 16px;
+}
+/*
+
+.login-button {
+  background-color: var(--color-fondo);
+  color: var(--color-letra);
+  font-family: DMSans-Bold, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.9px;
+  width: 50%;
+  height: 70px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+*/

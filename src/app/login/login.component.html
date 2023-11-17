@@ -1,0 +1,36 @@
+<body>
+<div class="container">
+  <div class="login-title">
+    <img src="assets/crediapp-logo.png" alt="Crediapp" class="logo">
+    <h1>Reanudemos tu viaje financiero. Estamos aquí para hacerlo posible</h1>
+  </div>
+
+  <div class="login-form">
+
+    <div class="login-form-container">
+
+      <h2 class="login-form-container-label">TU NOMBRE DE USUARIO O EMAIL</h2>
+      <mat-form-field class="login-form-field">
+        <!--[(ngModel)]="username"-->
+        <span matTextPrefix>
+          <img src="assets/user.png">
+        </span>
+        <input matInput placeholder="eg goku@gmail.com" >
+      </mat-form-field>
+
+      <h2 class="login-form-container-label">TU CONTRASEÑA</h2>
+      <mat-form-field class="login-form-field">
+        <span matTextPrefix>
+          <img src="assets/candado.png">
+        </span>
+        <input matInput placeholder="eg. welovecrediapp">
+      </mat-form-field>
+    </div>
+
+    <button mat-raised-button class="custom-principal-button">INICIA SESIÓN</button>
+
+    <a>No tienes una cuenta</a>
+  </div>
+</div>
+
+</body>
